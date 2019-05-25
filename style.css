@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.3;
+}
+
+#main {
+    margin: 30px 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+
+    font-size: 3rem;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 0.9;
+
+}
+
+p {
+    margin: 16px 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333;
+}
+
+#img-div {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+
+}
+
+#image {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 1rem;
+    margin: 15px 0px 5px 0;
+}
+
+#sub-title {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+#theatres {
+    max-width: 550px;
+    padding-left: 40px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+}
+
+.theater {
+
+    margin: 15px 0px;
+    font-size: 1rem;
+    text-align: left;
+
+}
+
+#quotation {
+    font-style: italic;
+    max-width: 550px;
+    text-align: justify;
+    margin: 0 auto 50px auto;
+}
+
+#cite {
+    font-size: 1rem;
+}
+
+#more-info {
+    font-size: 1rem;
+    text-align: center;
+    margin: 35px auto;
+    color: #333;
+}
